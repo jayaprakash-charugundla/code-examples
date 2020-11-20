@@ -1,5 +1,5 @@
 # Pre-requisites
-Checkout and build -> https://github.com/jayaprakash-charugundla/code-examples/java/duration-agent
+Checkout and Navigate duration-agent from  -> https://github.com/jayaprakash-charugundla/code-examples
 
 # java-instrumentation-demo
 
