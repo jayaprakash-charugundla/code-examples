@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: spring-boot-kafka
+  main:
+    allow-bean-definition-overriding: true
+jc:
+  kafka:
+    bootstrap-servers: localhost:9092
