@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: spring-jpa-criteria-demo
+
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+
+  datasource:
+    url: jdbc:h2:mem:criteria-demo
+    driver-class-name: org.h2.Driver
+    username: sa
+
+  h2:
+    console:
+      enabled: true
