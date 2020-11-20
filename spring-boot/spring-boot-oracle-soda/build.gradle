@@ -1,0 +1,30 @@
+plugins {
+	id 'org.springframework.boot' version '2.3.4.RELEASE'
+	id 'io.spring.dependency-management' version '1.0.10.RELEASE'
+	id 'java'
+}
+
+group = 'com.jc.soda'
+version = '1.0.0'
+sourceCompatibility = '1.8'
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	compile fileTree(include: ['*.jar'], dir: 'libs')
+	compile group: 'com.oracle.database.jdbc', name: 'ojdbc8', version: "19.7.0.0"
+	//compile group: 'javax.json', name: 'javax.json-api', version: '1.1.4'
+	compile group: 'org.glassfish', name: 'javax.json', version: '1.1.4'
+	compileOnly  group: 'org.projectlombok', name: 'lombok', version:"1.18.12"
+	annotationProcessor group: 'org.projectlombok', name: 'lombok', version:"1.18.12"
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+	testImplementation('org.springframework.boot:spring-boot-starter-test') {
+		exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
+	}
+}
+
+test {
+	useJUnitPlatform()
+}
