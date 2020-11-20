@@ -1,0 +1,24 @@
+plugins {
+    id 'java'
+}
+
+group 'com.jc.agent'
+version '1.0.0'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+task fatJar(type: Jar) {
+    manifest {
+        attributes 'premain-class': 'com.jc.agent.DurationAgent'
+    }
+    from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }
+    with jar
+}
+
+dependencies {
+    compile group: 'org.javassist', name: 'javassist', version: '3.27.0-GA'
+}
