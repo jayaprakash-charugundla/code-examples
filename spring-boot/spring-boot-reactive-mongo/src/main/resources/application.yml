@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: spring-boot-reactive-mongo
+  data:
+    mongodb:
+      database: Productsdb
+      host: localhost
+      port: 27017
