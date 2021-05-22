@@ -1,4 +1,4 @@
-package com.jc.springbootreactivemongo.dto;
+package com.jc.spring.mongo.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

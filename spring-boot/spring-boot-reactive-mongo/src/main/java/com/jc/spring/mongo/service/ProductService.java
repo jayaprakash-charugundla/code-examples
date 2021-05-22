@@ -1,8 +1,8 @@
-package com.jc.springbootreactivemongo.service;
+package com.jc.spring.mongo.service;
 
-import com.jc.springbootreactivemongo.ProductMapper;
-import com.jc.springbootreactivemongo.dto.ProductDto;
-import com.jc.springbootreactivemongo.repository.ProductRepository;
+import com.jc.spring.mongo.dto.ProductDto;
+import com.jc.spring.mongo.ProductMapper;
+import com.jc.spring.mongo.repository.ProductRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Range;
 import org.springframework.stereotype.Service;

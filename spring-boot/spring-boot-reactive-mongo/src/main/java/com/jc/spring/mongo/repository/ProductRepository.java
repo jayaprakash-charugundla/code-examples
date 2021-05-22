@@ -1,7 +1,7 @@
-package com.jc.springbootreactivemongo.repository;
+package com.jc.spring.mongo.repository;
 
-import com.jc.springbootreactivemongo.dto.ProductDto;
-import com.jc.springbootreactivemongo.model.Product;
+import com.jc.spring.mongo.dto.ProductDto;
+import com.jc.spring.mongo.model.Product;
 import org.springframework.data.domain.Range;
 import org.springframework.data.mongodb.repository.ReactiveMongoRepository;
 import org.springframework.stereotype.Repository;

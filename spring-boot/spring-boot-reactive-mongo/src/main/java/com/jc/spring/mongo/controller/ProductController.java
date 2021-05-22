@@ -1,7 +1,7 @@
-package com.jc.springbootreactivemongo.controller;
+package com.jc.spring.mongo.controller;
 
-import com.jc.springbootreactivemongo.dto.ProductDto;
-import com.jc.springbootreactivemongo.service.ProductService;
+import com.jc.spring.mongo.dto.ProductDto;
+import com.jc.spring.mongo.service.ProductService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 import reactor.core.publisher.Flux;

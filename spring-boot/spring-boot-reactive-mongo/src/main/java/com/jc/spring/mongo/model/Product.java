@@ -1,4 +1,4 @@
-package com.jc.springbootreactivemongo.model;
+package com.jc.spring.mongo.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

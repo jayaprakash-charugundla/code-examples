@@ -1,7 +1,7 @@
-package com.jc.springbootreactivemongo;
+package com.jc.spring.mongo;
 
-import com.jc.springbootreactivemongo.dto.ProductDto;
-import com.jc.springbootreactivemongo.model.Product;
+import com.jc.spring.mongo.dto.ProductDto;
+import com.jc.spring.mongo.model.Product;
 import org.springframework.beans.BeanUtils;
 
 public class ProductMapper {
