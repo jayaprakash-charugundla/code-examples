@@ -23,13 +23,13 @@ app:
     enabled: false
   postgres:
     datasource:
-      url: ${POSTGRES_URL}:localhost:5432/scdf
-      username: ${POSTGRES_USERNAME}:postgres
-      password: ${POSTGRES_PASSWORD}:password
+      url: ${POSTGRES_URL:localhost:5432/scdf}
+      username: ${POSTGRES_USERNAME:postgres}
+      password: ${POSTGRES_PASSWORD:password}
       driver-class-name: org.postgresql.Driver
   mysql:
     datasource:
-      url: ${MYSQL_URL}:localhost:3306/stark
-      username: ${MYSQL_USERNAME}:root
-      password: ${MYSQL_PASSWORD}:password
+      url: ${MYSQL_URL:localhost:3306/stark}
+      username: ${MYSQL_USERNAME:root}
+      password: ${MYSQL_PASSWORD:password}
       driver-class-name: com.mysql.jdbc.Driver
