@@ -1,4 +1,4 @@
-package com.jc.async.cs;
+package com.jc.async.cs.m03;
 
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ExecutorService;
