@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: spring-boot-excel-demo
+
+  mail:
+    host: smtp-relay.sendinblue.com
+    port: 587
+    username:
+    password:
+    default-encoding: UTF-8
+    protocol: smtp
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+            required: true
