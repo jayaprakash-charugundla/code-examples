@@ -1,0 +1,1 @@
+INSERT INTO `book`(`title`, `description`) VALUES('The Kubernetes Book', '2021 Edition');

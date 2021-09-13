@@ -1,0 +1,1 @@
+INSERT INTO `book`(`title`, `description`) VALUES('Data pipelines with Apache Airflow', '2021 Edition');

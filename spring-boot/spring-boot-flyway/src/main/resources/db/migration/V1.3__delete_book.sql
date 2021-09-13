@@ -1,0 +1,1 @@
+DELETE FROM `book` where `title` = 'Data pipelines with Apache Airflow';
